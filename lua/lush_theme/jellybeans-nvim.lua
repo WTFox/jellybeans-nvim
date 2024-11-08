@@ -265,6 +265,22 @@ local theme = lush(function(injected_functions)
 		TreesitterContext({ bg = grey_one }),
 		TreesitterContextLineNumber({ fg = zambezi, bg = grey_one }),
 		TreesitterContextBottom({ gui = "NONE", sp = grey_three }),
+
+		-- Dashboard
+		DashboardHeader({ fg = perano }),
+		DashboardCenter({ fg = morning_glory }),
+		DashboardFooter({ fg = grey }),
+		DashboardKey({ fg = koromiko }),
+		DashboardDesc({ fg = grey_two }),
+		DashboardIcon({ fg = morning_glory }),
+
+		DashboardProjectTitle({ fg = perano, gui = "bold" }),
+		DashboardProjectTitleIcon({ fg = morning_glory }),
+		DashboardProjectIcon({ fg = morning_glory }),
+		DashboardMruTitle({ fg = perano, gui = "bold" }),
+		DashboardMruIcon({ fg = morning_glory }),
+		DashboardFiles({ fg = foreground }),
+		DashboardShortCut({ fg = koromiko }),
 	}
 end)
 
